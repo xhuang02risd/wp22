@@ -1,0 +1,47 @@
+body{
+  margin: 25px;
+  background-color: #F0F0EC;
+  color: #231815;
+  font-family: 'Dapifer',sans-serif;
+  font-size: 50px;
+  }
+
+@font-face{
+  font-family:'Dapifer',sans-serif;
+  src:url("https://use.typekit.net/hff1lyk.css");
+  font-style: normal;
+  }
+
+@font-face{
+  font-family: 'fot-matisse-pron',sans-serif;
+  font-style: normal;
+  }
+
+.title{
+  margin-bottom: -50px;
+}
+
+.body{
+  font-family: 'fot-matisse-pron',sans-serif;
+  font-size: 10px;
+  width:100%;
+  height:160px;
+  }
+
+.head{
+    font-family: 'Dapifer',sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 100%;
+    }
+
+.table{
+  font-family: 'Dapifer',sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 2;
+  width: 100%;
+  }
+
+.image{
+  }
