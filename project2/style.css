@@ -1,0 +1,90 @@
+body{
+  margin: 25px;
+  background-color: #F0F0EC;
+  color: #231815;
+  font-family: 'Dapifer',sans-serif;
+  font-size: 50px;
+  }
+
+@keyframes headmove {
+    from {left: 1050px;}
+    to {left: 0px;}
+  }
+
+@keyframes flexmove {
+    from {left: 10px;}
+    to {left: 1000px;}
+  }
+
+@keyframes bodymove {
+    from {left: 500px;}
+    to {left: 0px;}
+  }
+
+@font-face{
+  font-family:'Dapifer',sans-serif;
+  src:url("https://use.typekit.net/hff1lyk.css");
+  font-style: normal;
+  }
+
+@font-face{
+  font-family: 'fot-matisse-pron',sans-serif;
+  font-style: normal;
+  }
+
+.body{
+  position: relative;
+  animation: bodymove 5s;
+  margin-top: 50px;
+  font-family: 'fot-matisse-pron',sans-serif;
+  font-size: 10px;
+  width:100%;
+  height:160px;
+  }
+
+.head{
+    position: relative;
+    animation: headmove 5s infinite;
+    font-family: 'Dapifer',sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 100%;
+    }
+
+.table{
+  font-family: 'Dapifer',sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 2;
+  width: 100%;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #231815;
+    padding: 10px;
+    box-shadow: 10px 5px 5px #231815;
+  }
+.grid-item {
+    background-color: #F0F0EC;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+.flex-container {
+    display: flex;
+    font-family: 'fot-matisse-pron',sans-serif;
+    background-color: #231815;
+  }
+
+.flex-container > div {
+    position: relative;
+    animation: flexmove 5s infinite;
+    background-color: #F0F0EC;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
